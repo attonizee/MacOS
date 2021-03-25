@@ -15,6 +15,5 @@ brew install --cask teamviewer
 brew install --cask skype
 #install Google Chrome
 brew install --cask google-chrome
-#password policy
-"echo 'password' | pwpolicy  -setglobalpolicy 'minChars=8 requiresAlpha=1 requiresNumeric=1'"
+
 
