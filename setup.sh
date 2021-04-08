@@ -1,6 +1,4 @@
 #!/bin/bash
-#update MacOS
-softwareupdate -i -a
 #install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #add cask repo
@@ -15,5 +13,7 @@ brew install --cask teamviewer
 brew install --cask skype
 #install Google Chrome
 brew install --cask google-chrome
-
-
+#update MacOS
+echo 'Updating to Big Sur'
+softwareupdate --fetch-full-installer
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/startosinstall --agreetolicense --forcequitapps --nointeraction
