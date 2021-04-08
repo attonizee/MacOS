@@ -13,9 +13,13 @@ brew install --cask teamviewer
 brew install --cask skype
 #install Google Chrome
 brew install --cask google-chrome
+<<<<<<< HEAD
 #password policy
 echo 'password' | pwpolicy  -setglobalpolicy 'minChars=8 requiresAlpha=1 requiresNumeric=1'
 #update Mac OS
+=======
+#update MacOS
+>>>>>>> ba2ffe9c0eb6c77a1953886d7281f950980d1b08
 echo 'Updating to Big Sur'
 softwareupdate --fetch-full-installer
 sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/startosinstall --agreetolicense --forcequitapps --nointeraction
