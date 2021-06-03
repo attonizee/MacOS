@@ -15,6 +15,8 @@ brew install --cask skype
 brew install --cask google-chrome
 #password policy
 echo 'password' | pwpolicy  -setglobalpolicy 'minChars=8 requiresAlpha=1 requiresNumeric=1'
+#Enable Firevault
+sudo fdesetup enable -defer ~/Documents/recovery.plist -forceatlogin 0 -dontaskatlogout
 #update MacOS
 echo 'Updating to Big Sur'
 softwareupdate --fetch-full-installer

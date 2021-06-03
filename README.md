@@ -2,6 +2,7 @@
 
 File **setup.sh** for basic configuration of MacOS, include:
 - Updating of MacOS;
+- Enable Firevault at login;
 - Installing HomeBrew packet manager;
 - Adding repository for software;
 - Installing saftware:
